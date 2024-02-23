@@ -70,6 +70,24 @@ nav span {
   margin-left: 10px;
 }
 
+/*******footer ******/
+footer {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.footer-div {
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+/*************/
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
