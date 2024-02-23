@@ -26,7 +26,12 @@ function Header() {
 }
 
 function Main() {
-  return <main>Main</main>;
+  return (
+    <main>
+      <form>search</form>
+      <section>all projects</section>
+    </main>
+  );
 }
 
 function Footer() {
