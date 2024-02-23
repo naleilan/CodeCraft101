@@ -109,7 +109,7 @@ function Main() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://naleilan.github.io/mapify/"
+              href="https://profilecard101.netlify.app/"
               className="preview"
             >
               <button>Preview</button>
