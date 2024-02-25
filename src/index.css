@@ -11,6 +11,10 @@
   --color-dark2: #242323;
   --color-yelow: #facc15;
   --color-blu: #747bff;
+  --color-blu2: #a7abfa;
+
+  --dark-gray: #a9a9a9;
+  --light-gray: #d3d3d3;
 
   --fg: #ffffffde;
   --input: #2e3138;
@@ -66,6 +70,43 @@ nav span {
   border: 5px solid var(--color-yelow);
 }
 
+.square101 {
+  width: 5em;
+  height: 5em;
+  border-radius: 10px;
+  background: linear-gradient(
+    135deg,
+    #facc15 25%,
+    #a9a9a9 25% 50%,
+    #facc15 50% 75%,
+    #a7abfa 75%
+  );
+  background-size: 400% 400%;
+  animation: animate 5s ease-in infinite;
+}
+
+.square101::before {
+  content: "";
+  width: 85%;
+  height: 85%;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  background-color: #121212;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+}
+
 .navbar {
   display: flex;
   margin-left: auto;
@@ -97,17 +138,25 @@ li {
   margin: 3rem 1rem;
 }
 
+.imgs {
+  width: 220px;
+  height: 170px;
+  object-fit: cover;
+}
+
 .card {
   position: relative;
   margin: 1rem;
-  padding: 1.5rem;
+  padding: 1rem;
   text-align: left;
+  justify-content: center;
+  align-items: center;
   color: inherit;
   text-decoration: none;
   border: 1px solid var(--fg);
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 300px;
+  width: 280px;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -122,19 +171,19 @@ li {
 
 .card h2 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
-.card li {
+/* .card li {
   margin: 1rem 0;
   font-size: 1.25rem;
-}
+} */
 
 .btns {
   position: absolute;
@@ -161,12 +210,12 @@ li {
   border-style: none;
   transition: 0.3s;
   width: 100px;
-  background-color: darkgray;
+  background-color: var(--color-blu);
 }
 
 .btns button:hover {
   cursor: pointer;
-  background-color: lightgray;
+  background-color: var(--color-blu2);
 }
 
 .code,
@@ -382,6 +431,7 @@ footer {
   gap: 30px;
   align-items: center;
   justify-content: space-around;
+  font-size: 0.7rem;
 }
 
 .footer-div {

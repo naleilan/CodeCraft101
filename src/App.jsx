@@ -12,9 +12,9 @@ function Header() {
   return (
     <header>
       <nav>
-        <p>
-          Code Craft <span>101</span>
-        </p>
+        <div>
+          Code Craft <span className="square101">101</span>
+        </div>
         <div className="navbar">
           <h4>Home</h4>
           <h4>About</h4>
@@ -36,14 +36,32 @@ function Main() {
 
       <section className="cards">
         <div className="card">
-          <h2>Forkify</h2>
+          <h2>Code Craft 101</h2>
           <p>Developed an SEO-friendly website</p>
           <img
-            src="../public/img/forkify.jpg"
-            width={230}
-            height={170}
-            alt="Forkify"
+            className="imgs"
+            src="../public/img/CodeCraft101.jpg"
+            alt="CodeCraft101"
           />
+          <div className="btns">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/naleilan/CodeCraft101"
+              className="code"
+            >
+              <button>Code</button>
+            </a>
+            <a target="_blank" rel="noreferrer" href="#" className="preview">
+              <button>Preview</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="card">
+          <h2>Forkify</h2>
+          <p>Developed an SEO-friendly website</p>
+          <img className="imgs" src="../public/img/forkify.jpg" alt="Forkify" />
           <div className="btns">
             <a
               target="_blank"
@@ -67,12 +85,7 @@ function Main() {
         <div className="card">
           <h2>Mapify</h2>
           <p>Developed an SEO-friendly website</p>
-          <img
-            src="../public/img/mapify.jpg"
-            width={230}
-            height={170}
-            alt="mapify"
-          />
+          <img className="imgs" src="../public/img/mapify.jpg" alt="mapify" />
           <div className="btns">
             <a
               target="_blank"
@@ -94,12 +107,67 @@ function Main() {
         </div>
 
         <div className="card">
+          <h2>Steps Slider</h2>
+          <p>Developed an SEO-friendly website</p>
+          <img
+            className="imgs"
+            src="../public/img/steps-slider.jpg"
+            alt="CodeCraft101"
+          />
+          <div className="btns">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/naleilan/steps-slider"
+              className="code"
+            >
+              <button>Code</button>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://steps-slider.netlify.app/"
+              className="preview"
+            >
+              <button>Preview</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="card">
+          <h2>Check List</h2>
+          <p>Developed an SEO-friendly website</p>
+          <img
+            className="imgs"
+            src="../public/img/checklist.jpg"
+            alt="checklist"
+          />
+          <div className="btns">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/naleilan/travel-list"
+              className="code"
+            >
+              <button>Code</button>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://traveler-list.netlify.app/"
+              className="preview"
+            >
+              <button>Preview</button>
+            </a>
+          </div>
+        </div>
+
+        <div className="card">
           <h2>Profile Card</h2>
           <p>Developed an SEO-friendly website</p>
           <img
+            className="imgs"
             src="../public/img/profilecard.jpg"
-            width={230}
-            height={170}
             alt="ProfileCard"
           />
           <div className="btns">
@@ -136,7 +204,7 @@ function Footer() {
           <svg
             stroke="currentColor"
             fill="#fff"
-            stroke-width="0"
+            strokeWidth="0"
             viewBox="0 0 496 512"
             height="30"
             width="30"
@@ -160,7 +228,7 @@ function Footer() {
           </svg>
         </a>
       </div>
-      <p className="copyright">&copy;{currentYear} Leilan Na </p>
+      <p className="copyright">&copy; {currentYear} Leilan Na </p>
       <p></p>
     </footer>
   );
