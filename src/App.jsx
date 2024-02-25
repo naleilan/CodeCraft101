@@ -28,14 +28,19 @@ function Header() {
 function Main() {
   return (
     <main>
-      <form className="searchbar">search</form>
-      <section className="grid">
+      <div className="searchbtn">
+        <label htmlFor="search">Search</label>
+        <input id="search" type="search" pattern=".*\S.*" required />
+        <span className="caret"></span>
+      </div>
+
+      <section className="cards">
         <div className="card">
           <h2>Forkify</h2>
           <p>Developed an SEO-friendly website</p>
           <img
             src="../public/img/forkify.jpg"
-            width={300}
+            width={230}
             height={170}
             alt="Forkify"
           />
@@ -64,7 +69,7 @@ function Main() {
           <p>Developed an SEO-friendly website</p>
           <img
             src="../public/img/mapify.jpg"
-            width={300}
+            width={230}
             height={170}
             alt="mapify"
           />
@@ -93,7 +98,7 @@ function Main() {
           <p>Developed an SEO-friendly website</p>
           <img
             src="../public/img/profilecard.jpg"
-            width={300}
+            width={230}
             height={170}
             alt="ProfileCard"
           />
