@@ -202,6 +202,7 @@ function Footer() {
       <div className="footer-div">
         <a href="https://github.com/naleilan" target="-blank">
           <svg
+            className="icons"
             stroke="currentColor"
             fill="#fff"
             strokeWidth="0"
@@ -216,6 +217,7 @@ function Footer() {
 
         <a href="https://twitter.com/NaLeilan" target="-blank">
           <svg
+            className="icons"
             xmlns="http://www.w3.org/2000/svg"
             fill="#fff"
             x="0px"
@@ -228,7 +230,9 @@ function Footer() {
           </svg>
         </a>
       </div>
-      <p className="copyright">&copy; {currentYear} Leilan Na </p>
+      <p className="copyright">
+        &copy; {currentYear} <span className="footer-name">Leilan Na</span>
+      </p>
       <p></p>
     </footer>
   );
