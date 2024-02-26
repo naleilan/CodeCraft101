@@ -57,7 +57,7 @@ function Main() {
         <div className="card">
           <h2>Forkify</h2>
           <p>Developed an SEO-friendly website</p>
-          <img className="imgs" src="public/img/forkify.jpg" alt="Forkify" />
+          <img className="imgs" src="img/forkify.jpg" alt="Forkify" />
           <div className="btns">
             <a
               target="_blank"
