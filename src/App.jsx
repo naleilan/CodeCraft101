@@ -38,7 +38,11 @@ function Main() {
         <div className="card">
           <h2>Code Craft 101</h2>
           <p>Developed an SEO-friendly website</p>
-          <img className="imgs" src="img/CodeCraft101.jpg" alt="CodeCraft101" />
+          <img
+            className="imgs"
+            src="/img/CodeCraft101.jpg"
+            alt="CodeCraft101"
+          />
           <div className="btns">
             <a
               target="_blank"
@@ -57,7 +61,7 @@ function Main() {
         <div className="card">
           <h2>Forkify</h2>
           <p>Developed an SEO-friendly website</p>
-          <img className="imgs" src="img/forkify.jpg" alt="Forkify" />
+          <img className="imgs" src="./img/forkify.jpg" alt="Forkify" />
           <div className="btns">
             <a
               target="_blank"
