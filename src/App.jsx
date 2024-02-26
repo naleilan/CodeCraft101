@@ -40,7 +40,7 @@ function Main() {
           <p>Developed an SEO-friendly website</p>
           <img
             className="imgs"
-            src="public/img/CodeCraft101.jpg"
+            src="/public/img/CodeCraft101.jpg"
             alt="CodeCraft101"
           />
           <div className="btns">
