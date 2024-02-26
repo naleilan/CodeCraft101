@@ -38,11 +38,7 @@ function Main() {
         <div className="card">
           <h2>Code Craft 101</h2>
           <p>Developed an SEO-friendly website</p>
-          <img
-            className="imgs"
-            src="/public/img/CodeCraft101.jpg"
-            alt="CodeCraft101"
-          />
+          <img className="imgs" src="img/CodeCraft101.jpg" alt="CodeCraft101" />
           <div className="btns">
             <a
               target="_blank"
@@ -61,7 +57,7 @@ function Main() {
         <div className="card">
           <h2>Forkify</h2>
           <p>Developed an SEO-friendly website</p>
-          <img className="imgs" src="public/img/forkify.jpg" alt="Forkify" />
+          <img className="imgs" src="img/forkify.jpg" alt="Forkify" />
           <div className="btns">
             <a
               target="_blank"
@@ -85,7 +81,7 @@ function Main() {
         <div className="card">
           <h2>Mapify</h2>
           <p>Developed an SEO-friendly website</p>
-          <img className="imgs" src="public/img/mapify.jpg" alt="mapify" />
+          <img className="imgs" src="img/mapify.jpg" alt="mapify" />
           <div className="btns">
             <a
               target="_blank"
@@ -109,11 +105,7 @@ function Main() {
         <div className="card">
           <h2>Steps Slider</h2>
           <p>Developed an SEO-friendly website</p>
-          <img
-            className="imgs"
-            src="public/img/steps-slider.jpg"
-            alt="CodeCraft101"
-          />
+          <img className="imgs" src="img/steps-slider.jpg" alt="CodeCraft101" />
           <div className="btns">
             <a
               target="_blank"
@@ -137,11 +129,7 @@ function Main() {
         <div className="card">
           <h2>Check List</h2>
           <p>Developed an SEO-friendly website</p>
-          <img
-            className="imgs"
-            src="public/img/checklist.jpg"
-            alt="checklist"
-          />
+          <img className="imgs" src="img/checklist.jpg" alt="checklist" />
           <div className="btns">
             <a
               target="_blank"
@@ -165,11 +153,7 @@ function Main() {
         <div className="card">
           <h2>Profile Card</h2>
           <p>Developed an SEO-friendly website</p>
-          <img
-            className="imgs"
-            src="public/img/profilecard.jpg"
-            alt="ProfileCard"
-          />
+          <img className="imgs" src="img/profilecard.jpg" alt="ProfileCard" />
           <div className="btns">
             <a
               target="_blank"
